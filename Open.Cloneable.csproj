@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Description>Contains Open.Cloneable.ICloneable and Open.Cloneable.ICloneable&lt;T&gt;.
+
+Since there is not consistent avaialbility for both, this assembly is provided for common use.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>electricessence</Authors>
+    <Company>electricessence</Company>
+    <Copyright>https://github.com/electricessence/Open.Cloneable/blob/master/LISCENSE.md</Copyright>
+    <PackageLicenseUrl>https://github.com/electricessence/Open.Cloneable/blob/master/LISCENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/electricessence/Open.Cloneable/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/electricessence/Open.Cloneable/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dotnet, dotnetcore, cs, cloneable, ICloneable</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+</Project>
