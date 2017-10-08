@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <Description>Contains Open.Cloneable.ICloneable and Open.Cloneable.ICloneable&lt;T&gt;.
 
-Since there is not consistent avaialbility for both, this assembly is provided for common use.</Description>
+Since there is not consistent availability for both, this assembly is provided for common use.</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>electricessence</Authors>
     <Company>electricessence</Company>
