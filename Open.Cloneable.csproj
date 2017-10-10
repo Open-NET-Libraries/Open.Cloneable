@@ -24,4 +24,11 @@ Since there is not consistent availability for both, this assembly is provided f
     <Optimize>True</Optimize>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove=".git" />
+    <None Remove=".gitignore" />
+    <None Remove="LICENSE" />
+    <None Remove="README.md" />
+  </ItemGroup>
+
 </Project>
