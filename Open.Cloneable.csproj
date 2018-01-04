@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Contains Open.Cloneable.ICloneable and Open.Cloneable.ICloneable&lt;T&gt;.
 
 Since there is not consistent availability for both, this assembly is provided for common use.</Description>
@@ -14,6 +14,8 @@ Since there is not consistent availability for both, this assembly is provided f
     <RepositoryUrl>https://github.com/electricessence/Open.Cloneable/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>dotnet, dotnetcore, cs, cloneable, ICloneable</PackageTags>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Updated to .NET Standard for compatability.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
