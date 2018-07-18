@@ -20,10 +20,12 @@ Since there is not consistent availability for both, this assembly is provided f
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <Optimize>True</Optimize>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>True</Optimize>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
