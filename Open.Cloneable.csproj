@@ -1,38 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>Contains Open.Cloneable.ICloneable and Open.Cloneable.ICloneable&lt;T&gt;.
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Description>
+			Contains Open.Cloneable.ICloneable and Open.Cloneable.ICloneable&lt;T&gt;.
 
-Since there is not consistent availability for both, this assembly is provided for common use.</Description>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Authors>electricessence</Authors>
-    <Company>electricessence</Company>
-    <Copyright>https://github.com/electricessence/Open.Cloneable/blob/master/LISCENSE.md</Copyright>
-    <PackageLicenseUrl>https://github.com/electricessence/Open.Cloneable/blob/master/LISCENSE.md</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/electricessence/Open.Cloneable/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/electricessence/Open.Cloneable/</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageTags>dotnet, dotnetcore, cs, cloneable, ICloneable</PackageTags>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>Updated to .NET Standard for compatability.</PackageReleaseNotes>
-  </PropertyGroup>
+			Since there is not consistent availability for both, this assembly is provided for common use.
+		</Description>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>electricessence</Authors>
+		<Copyright>© electricessence (Oren F.) All rights reserved.</Copyright>
+		<PackageProjectUrl>https://github.com/Open-NET-Libraries/Open.Cloneable/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Open-NET-Libraries/Open.Cloneable/</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>cloneable;ICloneable</PackageTags>
+		<Version>1.1.1</Version>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <Optimize>True</Optimize>
-    <LangVersion>latest</LangVersion>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <Optimize>True</Optimize>
-    <LangVersion>latest</LangVersion>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove=".git" />
-    <None Remove=".gitignore" />
-    <None Remove="LICENSE" />
-    <None Remove="README.md" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Remove=".git" />
+		<None Remove=".gitignore" />
+		<None Include="logo.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
