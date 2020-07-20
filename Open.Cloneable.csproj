@@ -14,7 +14,8 @@
 		<RepositoryUrl>https://github.com/Open-NET-Libraries/Open.Cloneable/</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>cloneable;ICloneable</PackageTags>
-		<Version>1.1.1</Version>
+		<Version>1.1.2</Version>
+		<PackageIcon>logo.png</PackageIcon>		
 	</PropertyGroup>
 
 	<ItemGroup>
